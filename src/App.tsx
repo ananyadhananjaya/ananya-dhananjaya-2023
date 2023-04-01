@@ -1,5 +1,7 @@
+import Sidebar from './Sidebar/Sidebar'
+
 function App() {
-    return <div>Hello world</div>
+  return <Sidebar />
 }
 
 export default App
