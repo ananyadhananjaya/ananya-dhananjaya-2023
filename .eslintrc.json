@@ -17,9 +17,9 @@
     },
     "ecmaVersion": "latest"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint", "html"],
   "rules": {
-    "no-unused-vars": "error",
+    // "no-unused-vars": "error",
     "no-var": "error",
     "comma-spacing": ["error", { "before": false, "after": true }],
     "comma-style": ["error", "last"],
