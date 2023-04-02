@@ -2,7 +2,7 @@ import { Links } from '../Misc/Links'
 
 const Home = () => {
   return (
-    <div className="m-6 min-w-xl w-7/12">
+    <div className="m-6 min-w-xl max-w-xl w-7/12 ">
       <div className="text-3xl">Ananya Dhananjaya</div>
       <br />
       <p className="">

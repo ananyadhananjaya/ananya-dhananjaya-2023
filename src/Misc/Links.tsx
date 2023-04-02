@@ -7,7 +7,7 @@ export const Links = () => {
       <div>
         <div className="">
           <a
-            className="flex justify-center"
+            className="flex"
             href="https://www.linkedin.com/in/ananyadhananjaya/"
             target="_blank"
             rel="noreferrer"
@@ -20,7 +20,7 @@ export const Links = () => {
         </div>
         <div className="">
           <a
-            className="flex justify-center"
+            className="flex"
             href="https://github.com/ananyadhananjaya"
             target="_blank"
             rel="noreferrer"
