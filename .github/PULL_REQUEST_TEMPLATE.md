@@ -18,7 +18,9 @@
 ### Before submitting the PR, please make sure you do the following <!-- (put an "X" next to an item) -->
 
 - [ ] Provide a description in this PR that addresses **what** the PR is solving, or reference the issue that it solves (e.g. `fixes #123`).
-Review your changes: Before submitting a PR, make sure to review all the changes you've made to the codebase. This includes checking for syntax errors, logical errors, and any other mistakes that might affect the functionality of the code.
+- [ ] Review your changes: Before submitting a PR, make sure to review all the changes you've made to the codebase. This includes checking for syntax errors, logical errors, and any other mistakes that might affect the functionality of the code.
+
+- [ ] Follow the [PR Title Convention](https://github.com/ananyadhananjaya/ananya-dhananjaya-2023/blob/main/.github/commit-convention.md).
 
 - [ ] Test your changes: It's important to test your changes thoroughly to ensure that they don't introduce any bugs or issues. This could involve running unit tests, integration tests, or manual tests.
 
