@@ -3,6 +3,7 @@ import Sidebar from './Sidebar/Sidebar'
 import About from './About/About'
 import Home from './Home/Home'
 import Works from './Works/Works'
+import Footer from './Footer/Footer'
 
 function App() {
   const [page, setPage] = useState<string>('Home')
@@ -20,10 +21,11 @@ function App() {
   return (
     <>
       <div className="h-screen">
-        <div className="flex items-center md:h-2/3 flex-col md:flex-row justify-center">
+        <div className="flex pt-24 md:h-2/3 flex-col md:flex-row justify-center h-5/6">
           <Sidebar page={page} setPage={setPage} />
           {renderPage(page)}
         </div>
+        <Footer />
       </div>
     </>
   )
