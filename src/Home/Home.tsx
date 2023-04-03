@@ -12,7 +12,7 @@ const Home = () => {
       <br />
       <div className="flex p-2">
         <img
-          src="../../public/assets/HeadShot.JPG"
+          src="assets/HeadShot.JPG"
           alt="profile"
           className="rounded-full h-32"
         />
