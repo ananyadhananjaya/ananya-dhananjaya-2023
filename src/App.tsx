@@ -20,8 +20,8 @@ function App() {
   }
   return (
     <>
-      <div className="h-screen">
-        <div className="flex pt-24 md:h-2/3 flex-col md:flex-row justify-center h-5/6">
+      <div className="h-full">
+        <div className="flex pt-12 md:h-2/3 flex-col md:flex-row justify-center h-5/6">
           <Sidebar page={page} setPage={setPage} />
           {renderPage(page)}
         </div>

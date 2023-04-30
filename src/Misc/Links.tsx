@@ -4,7 +4,7 @@ import LinkedinIcon from './LinkedinIcon'
 export const Links = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <div>
+      <div className='pl-12'>
         <div className="">
           <a
             className="flex"

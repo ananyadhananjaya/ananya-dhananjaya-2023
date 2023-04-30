@@ -5,9 +5,9 @@ interface SidebarProps {
 
 const Sidebar = ({ page, setPage }: SidebarProps) => {
   return (
-    <aside className="">
+    <div className="">
       <div className="m-6">
-        <ul className="flex md:flex-col w-24 justify-center">
+        <ul className="flex md:flex-col justify-left">
           <li
             className={
               page === 'Home'
@@ -40,7 +40,7 @@ const Sidebar = ({ page, setPage }: SidebarProps) => {
           </li>
         </ul>
       </div>
-    </aside>
+    </div>
   )
 }
 
